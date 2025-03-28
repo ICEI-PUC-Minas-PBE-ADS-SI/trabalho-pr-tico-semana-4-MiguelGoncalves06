@@ -8,10 +8,10 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Miguel de Paula Goncalves
+- Matricula: 890790
+- Proposta de projeto escolhida: Agencia de Viagens
+- Breve descrição sobre seu projeto:Uma agencia de viagens com alguns pacotes para a Europa, ofereçendo hospedagem e atividades de entretenimento.
 
 ## Print da versão responsiva com CSS puro
 
