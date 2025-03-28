@@ -7,7 +7,8 @@
     font-size: 20px;
 }
 
-html{ /*Rolagem*/
+html {
+    /*Rolagem*/
     scroll-behavior: smooth;
 }
 
@@ -100,15 +101,17 @@ main {
 
 }
 
-.interface{
+.interface {
     margin-bottom: 60px;
 }
 
-main .btn-interesse button:hover, form .btn-enviar input:hover {
+main .btn-interesse button:hover,
+form .btn-enviar input:hover {
     transform: scale(1.05);
     transition: 0.2s;
 }
-.viagem-maldivas{
+
+.viagem-maldivas {
     margin-top: 15px;
 }
 
@@ -117,93 +120,95 @@ main .btn-interesse button:hover, form .btn-enviar input:hover {
     transition: 0.5s;
 }
 
-.img-viagem img{
+.img-viagem img {
     height: 300px;
     width: auto;
     border-radius: 12px;
 }
 
 /*section: vacations*/
-section .vacation{
+section .vacation {
     padding: 80px 4%;
 
 }
 
 
-.vacation .Pagina-Inicial{
+.vacation .Pagina-Inicial {
     color: black;
     padding: 40px;
     margin-top: 45px;
     border-radius: 20px;
     transition: .2s;
 }
-.vacation .Pagina-Inicial:hover{
+
+.vacation .Pagina-Inicial:hover {
     transform: scale(1.05);
     box-shadow: 0 0 8px rgba(153, 153, 153, 0.695);
 }
-.vacation .Pagina-Inicial img{
+
+.vacation .Pagina-Inicial img {
     height: 80px;
 }
 
-.vacation .Pagina-Inicial h3{
+.vacation .Pagina-Inicial h3 {
     font-size: 28px;
     margin: 10px 0;
 }
 
-.vacation .Pagina-Inicial p{
+.vacation .Pagina-Inicial p {
     text-align: justify;
 }
 
-.vacation h3{
+.vacation h3 {
     color: #0074b8;
 }
 
-h2.titulo{
+h2.titulo {
     color: black;
     font-size: 38px;
     text-align: center;
 }
 
-h2.titulo span{
-    color:#0074b8;
+h2.titulo span {
+    color: #0074b8;
     font-size: 38px;
 }
 
 
 /*DEPOIMENTO DOS CLIENTES*/
 
-section.depoimento{
+section.depoimento {
     padding: 40px 4%;
 }
 
-.depoimento .titulo{
+.depoimento .titulo {
     margin-bottom: 40px;
 }
 
-.depoimento .testemunhas:hover{
+.depoimento .testemunhas:hover {
     transform: scale(1.05);
     box-shadow: 0 0 8px rgba(153, 153, 153, 0.695);
 }
 
-.depoimento .testemunhas{
+.depoimento .testemunhas {
     border-radius: 20px;
     transition: .2s;
     padding: 40px;
     margin-top: 45px;
     border-radius: 20px;
-} 
+}
 
-.testemunhas img{
+.testemunhas img {
     height: 30px;
     width: auto;
 }
 
 /*FORM*/
-section.formulario{
+section.formulario {
     padding: 80px 4%;
 }
 
-form{
+form {
     max-width: 500px;
     margin: 0 auto;
     display: flex;
@@ -213,9 +218,10 @@ form{
     margin-top: 40px;
 }
 
-form input, form textarea{
+form input,
+form textarea {
     width: 100%;
-    background-color:rgb(234, 234, 234) ;
+    background-color: rgb(234, 234, 234);
     border: 0;
     outline: 0;
     padding: 20px 15px;
@@ -223,40 +229,40 @@ form input, form textarea{
     font-size: 18px;
 }
 
-form textarea{
+form textarea {
     resize: none;
     max-height: 200px;
 }
 
-form .btn-enviar{
+form .btn-enviar {
     margin-top: 20px;
     text-align: center;
 }
 
-form .btn-enviar input{
+form .btn-enviar input {
     width: 120px;
-    background-color:#0074b8;
+    background-color: #0074b8;
     font-weight: 700;
     cursor: pointer;
 }
 
 /*FOOTER*/
 
-.logo-footer img{
+.logo-footer img {
     height: 110px;
     width: auto;
 }
 
-footer{
+footer {
     padding: 60px 4%;
-    box-shadow:  0 0 40px 10px rgba(221, 221, 221, 0.43);
+    box-shadow: 0 0 40px 10px rgba(221, 221, 221, 0.43);
 }
 
-footer .flex{
+footer .flex {
     justify-content: space-between;
 }
 
-.btn-social button{
+.btn-social button {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -266,28 +272,29 @@ footer .flex{
     cursor: pointer;
     margin: 0 5px;
     transform: 0.2s;
-    
+
 }
 
-.btn-social button:hover{
+.btn-social button:hover {
     transform: scale(1.05);
     transition: .2s;
-    
+
 }
 
-.btn-social img{
+.btn-social img {
     width: 25px;
 }
-footer .linha-footer p a{
+
+footer .linha-footer p a {
     color: black;
     text-decoration: none;
 }
 
-footer .linha-footer{
+footer .linha-footer {
     padding: 20px 0;
 }
 
-.borda{
+.borda {
     border-top: solid 3px #0074b8;
 }
 
@@ -297,18 +304,19 @@ footer .linha-footer{
     padding: 40px 4%;
 }
 
-.volta button img{
+.volta button img {
     height: 30px;
 }
-.volta button{
+
+.volta button {
     border: none;
     background-color: white;
 }
 
 .volta .flex button {
     display: flex;
-    align-items: center; 
-    gap: 10px; 
+    align-items: center;
+    gap: 10px;
     background: none;
     border: none;
     padding: 0;
@@ -318,7 +326,7 @@ footer .linha-footer{
 
 
 .flex button p {
-    margin: 0; 
+    margin: 0;
 }
 
 .pais {
@@ -326,72 +334,75 @@ footer .linha-footer{
     margin-top: -90px;
 }
 
-.pais  img{
+.pais img {
     height: 30px;
 }
 
-.pais .mapa img{
+.pais .mapa img {
     height: 450px;
     border-radius: 35px;
 }
-p{
+
+p {
 
     font-size: 20px;
 }
 
-h3{
+h3 {
     font-size: 35px;
     color: #0074b8;
 }
 
-.pais .roteiro p{
+.pais .roteiro p {
     margin: 20px 90px;
     text-align: justify;
 }
-.pais p{
+
+.pais p {
     margin: 20px 38px;
     text-align: justify;
 }
 
-.pais h2{
+.pais h2 {
     margin: 12px 38px;
 }
 
 
-h4{
+h4 {
     font-size: 35px;
     text-align: center;
     margin-bottom: 40px;
     color: #0074b8;
 }
 
-.cidades h4 img{
+.cidades h4 img {
     height: 35px;
 }
 
-h2{
+h2 {
     color: #0074b8;
 }
 
-.mapa button:hover{
+.mapa button:hover {
     transform: scale(1.05);
     transition: .2s;
 }
-.mapa button{
+
+.mapa button {
     border: none;
     cursor: pointer;
     padding: 0;
-    background:none;
+    background: none;
 }
 
-.mapa{
+.mapa {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
 }
 
-.imagens img{
+.imagens img {
     display: flex;
     height: 230px;
     width: auto;
@@ -399,4 +410,86 @@ h2{
     display: inline-block;
     margin-right: 10px;
     margin-top: 20px;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 1212px) {
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .viagens {
+        flex-direction: column-reverse;
+    }
+
+    /* header */
+    .Navegacao,
+    .btn-contato {
+        display: none;
+    }
+
+    header {
+        margin-bottom: -100px;
+    }
+
+    /*  imagens*/
+
+    .img-viagem img {
+        height: auto;
+        width: 360px;
+
+    }
+
+    /*DEPOIMENTO DOS CLIENTES*/
+
+    section.depoimento {
+        padding: 40px 8%;
+        margin-top: -50px;
+    }
+
+    .depoimento .testemunhas {
+        margin-top: -50px;
+    }
+
+    .btn-interesse {
+        text-align: center;
+    }
+
+    .pais .imagens img {
+        height: 200px;
+    }
+
+    p {
+
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .pais .roteiro p {
+        margin: 20px 9px;
+
+    }
+
+    .pais p {
+        margin: 20px 38px;
+    }
+
+    .pais h2 {
+        margin: 12px 38px;
+    }
+
+
+    h4 {
+        font-size: 25px;
+    }
+
+    .mapa img {
+        width: 350px;
+        height: 450px;
+    }
 }
