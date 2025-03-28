@@ -1,10 +1,8 @@
 /*configuracoes gerais*/
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 html {
@@ -17,17 +15,13 @@ header {
     padding: 40px 4%;
 }
 
-header>.interface {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 header a {
     color: #0074b8;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
+    font-size: 18px;
 }
 
 header a:hover {
@@ -36,13 +30,10 @@ header a:hover {
 
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
 header nav ul li {
     display: inline-block;
     padding: 0 60px;
+    list-style-type: none;
 
 }
 
@@ -52,46 +43,44 @@ header nav ul li {
 }
 
 header .btn-contato button {
-    padding: 10px 40px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     background-color: #0074b8;
     border: 0;
     border-radius: 35px;
     cursor: pointer;
     color: white;
+    height: 40px;
+    width: 140px;
+
 }
 
-header .btn-contato button :hover {
+header .btn-contato button:hover {
     box-shadow: 0px 0px 8px #053f61;
 }
+
 
 
 /* estilo viagens */
 
 main {
-    margin: 40px 4%;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    gap: 60px;
+    margin: 40px 2%;
 }
 
 
 .txt-viagem p {
     text-align: justify;
     margin: 15px 0;
+    font-size: 15px;
 }
 
 .txt-viagem h2 {
-    font-size: 40px;
+    font-size: 30px;
     color: #0074b8;
 }
 
 .btn-interesse button {
-    width: 180px;
+    width: 140px;
     height: 40px;
     border-radius: 30px;
     border: none;
@@ -111,19 +100,16 @@ form .btn-enviar input:hover {
     transition: 0.2s;
 }
 
-.viagem-maldivas {
-    margin-top: 15px;
-}
-
 .img-viagem img:hover {
     transform: scale(1.05);
     transition: 0.5s;
 }
 
 .img-viagem img {
-    height: 300px;
-    width: auto;
-    border-radius: 12px;
+    height: auto;
+    width: 500px;
+    border-radius: 15px;
+
 }
 
 /*section: vacations*/
@@ -157,6 +143,7 @@ section .vacation {
 
 .vacation .Pagina-Inicial p {
     text-align: justify;
+    font-size: 16px;
 }
 
 .vacation h3 {
@@ -183,6 +170,10 @@ section.depoimento {
 
 .depoimento .titulo {
     margin-bottom: 40px;
+}
+
+.depoimento p {
+    font-size: 18px;
 }
 
 .depoimento .testemunhas:hover {
@@ -212,7 +203,6 @@ form {
     max-width: 500px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     gap: 10px;
     margin-top: 40px;
@@ -239,6 +229,7 @@ form .btn-enviar {
     text-align: center;
 }
 
+
 form .btn-enviar input {
     width: 120px;
     background-color: #0074b8;
@@ -258,9 +249,6 @@ footer {
     box-shadow: 0 0 40px 10px rgba(221, 221, 221, 0.43);
 }
 
-footer .flex {
-    justify-content: space-between;
-}
 
 .btn-social button {
     width: 60px;
@@ -448,48 +436,48 @@ h2 {
         padding: 40px 8%;
         margin-top: -50px;
     }
-
-    .depoimento .testemunhas {
+    
+    .depoimento .testemunhas{
         margin-top: -50px;
     }
 
-    .btn-interesse {
+    .btn-interesse{
         text-align: center;
     }
 
-    .pais .imagens img {
+    .pais .imagens img{
         height: 200px;
     }
-
     p {
 
         font-size: 16px;
     }
-
+    
     h3 {
         font-size: 20px;
     }
-
+    
     .pais .roteiro p {
         margin: 20px 9px;
-
+    
     }
-
+    
     .pais p {
         margin: 20px 38px;
     }
-
+    
     .pais h2 {
         margin: 12px 38px;
     }
-
-
+    
+    
     h4 {
         font-size: 25px;
     }
 
     .mapa img {
-        width: 350px;
+        width: 350px ;
         height: 450px;
     }
 }
+
